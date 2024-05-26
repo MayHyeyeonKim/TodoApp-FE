@@ -11,7 +11,7 @@
 - npm
 
 ### Register & Login 
-   https://todomayster.netlify.app/register
+   https://todomayster.netlify.app/register <br >
    https://todomayster.netlify.app/login
 
 ## Error Encountered

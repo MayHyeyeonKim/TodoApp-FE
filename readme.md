@@ -10,6 +10,10 @@
 - Node.js
 - npm
 
+### Register & Login 
+   https://todomayster.netlify.app/register
+   https://todomayster.netlify.app/login
+
 ## Error Encountered
 
 ### Mixed Content Error

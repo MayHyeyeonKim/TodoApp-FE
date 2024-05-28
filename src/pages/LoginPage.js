@@ -21,8 +21,9 @@ const LoginPage = ({user, setUser}) => {
         api.defaults.headers["authorization"]= "Bearer " + response.data.token;
         setError("");
         navigate("/");
+      } else {
+        throw new Error(response.data.message || 'Login failed');
       }
-      throw new Error(response.message);
     }catch(error){
       setError(error.message);
     }

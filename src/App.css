@@ -95,3 +95,12 @@ button{
 .red-error {
   color: brown;
 }
+
+.welcome-container {
+  display: flex;
+  flex-direction: row-reverse; /* 아이템을 오른쪽에서 왼쪽으로 정렬 */
+}
+.welcome-logout {
+  margin-top: 30px;
+  color: lightblue;
+}
